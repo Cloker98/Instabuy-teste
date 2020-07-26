@@ -1,0 +1,138 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*========================NavBar==========================*/
+
+.navbar .nav-link{
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.navbar-toggler{
+	outline: none;
+}
+
+.bg-green{
+	background: #008000;
+}
+
+/*========================Slider==========================*/
+.carousel-item{
+	height: 600 px;
+}
+
+/*Classe do banner 1 */
+.carousel-image-0{
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4));
+	background-size: 1.25rem;
+	
+}
+
+/*Classe do banner 2 */
+.carousel-image-1{
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4));
+	background-size: 1.25rem;
+
+}]
+
+.carousel-banner-image{
+	
+	background-size: 1.25rem;
+}
+
+.title-color{
+	color: #fff;
+}
+
+
+/*======================Fim do Slider=========================*/
+
+/*==================Sessão dos Produtos======================*/
+.product-title{
+	color: green;
+}
+
+#products{
+	background: 
+}
+
+/*================Fim da Sessão dos Produtos=================*/
+
+/*================Contato=================*/
+
+#contato{
+	color: green;
+}
+
+.btn-color{
+	background:green; 
+	color:#000;
+}
+
+.btn-color:hover{
+	color: #fff;
+}
+
+/* Animação botão */
+.cont-btn{
+	display: inline-block;
+	vertical-align: middle;
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+
+.cont-btn:hover,
+.cont-btn:focus,
+.cont-btn:active{
+	animation-name: slide-btn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1; 
+}
+/*================Fim de Contato=================*/
+
+/*================Rodapé=================*/
+.footer{
+	background: green;
+	color: #fff;
+}
+
+.fa-github{
+	color: #fff;
+}
+
+.fa-github:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.fa-instagram{
+	color: #fff;
+}
+
+.fa-instagram:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.fa-facebook{
+	color: #fff;
+}
+
+.fa-facebook:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.fa-linkedin{
+	color: #fff;
+}
+
+.fa-linkedin:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
